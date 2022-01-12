@@ -1,8 +1,8 @@
 {
-  "name": "serum-dex-ui",
+  "name": "fac-dex",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://FinancialAidCoin.github.io/FAC-Dex",
+  "homepage": "https://FinancialAidCoin.github.io/Facdex",
   "dependencies": {
     "@ant-design/colors": "^6.0.0",
     "@ant-design/icons": "^4.7.0",

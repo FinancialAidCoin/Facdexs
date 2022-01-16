@@ -46,7 +46,6 @@
     "typescript": "^3.9.7"
   },
   "scripts": {
-
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",

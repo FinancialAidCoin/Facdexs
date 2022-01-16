@@ -17,7 +17,7 @@ export function Routes() {
       <HashRouter basename={'/'}>
         <BasicLayout>
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/FinancialAidCoin">
               <Redirect to={getTradePageUrl()} />
             </Route>
             <Route exact path="/market/:marketAddress">

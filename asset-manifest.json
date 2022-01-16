@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Facdexs/static/css/main.99ede3ff.chunk.css",
+    "main.css": "/Facdexs/static/css/main.8e0b8bcf.chunk.css",
     "main.js": "/Facdexs/static/js/main.cd7510e5.chunk.js",
     "main.js.map": "/Facdexs/static/js/main.cd7510e5.chunk.js.map",
     "runtime-main.js": "/Facdexs/static/js/runtime-main.12e1df88.js",
@@ -9,10 +9,10 @@
     "static/js/2.91530ea2.chunk.js": "/Facdexs/static/js/2.91530ea2.chunk.js",
     "static/js/2.91530ea2.chunk.js.map": "/Facdexs/static/js/2.91530ea2.chunk.js.map",
     "index.html": "/Facdexs/index.html",
-    "precache-manifest.067d425ad72405e7bb50bad9c5303091.js": "/Facdexs/precache-manifest.067d425ad72405e7bb50bad9c5303091.js",
+    "precache-manifest.72f08bd617e0e9a0a2e9aa624f3c9db0.js": "/Facdexs/precache-manifest.72f08bd617e0e9a0a2e9aa624f3c9db0.js",
     "service-worker.js": "/Facdexs/service-worker.js",
     "static/css/2.3a0ac4c9.chunk.css.map": "/Facdexs/static/css/2.3a0ac4c9.chunk.css.map",
-    "static/css/main.99ede3ff.chunk.css.map": "/Facdexs/static/css/main.99ede3ff.chunk.css.map",
+    "static/css/main.8e0b8bcf.chunk.css.map": "/Facdexs/static/css/main.8e0b8bcf.chunk.css.map",
     "static/js/2.91530ea2.chunk.js.LICENSE.txt": "/Facdexs/static/js/2.91530ea2.chunk.js.LICENSE.txt",
     "static/media/Artboard 1.png": "/Facdexs/static/media/Artboard 1.98eafb0a.png"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.12e1df88.js",
     "static/css/2.3a0ac4c9.chunk.css",
     "static/js/2.91530ea2.chunk.js",
-    "static/css/main.99ede3ff.chunk.css",
+    "static/css/main.8e0b8bcf.chunk.css",
     "static/js/main.cd7510e5.chunk.js"
   ]
 }

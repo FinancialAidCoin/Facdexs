@@ -2,7 +2,7 @@
   "name": "fac-dex",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://FinancialAidCoin.github.io/Facdex",
+  "homepage": "https://FinancialAidCoin.github.io/Facdexs",
   "dependencies": {
     "@ant-design/colors": "^6.0.0",
     "@ant-design/icons": "^4.7.0",
@@ -55,11 +55,8 @@
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "/src/chartinxg_library/charting_library.esm.js",
-      "charting_library"
-    ]
+    "extends":
+      "react-app"
   },
   "jest": {
     "transformIgnorePatterns": [

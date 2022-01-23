@@ -347,7 +347,7 @@ const RenderNormal = ({ onChangeOrderRef, onPrice, onSize }) => {
       </Col>
 
       <Col flex="auto" style={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
-        <div style={{ height: '600px' }}><TVChartContainer /></div>
+        <div style={{ height: '510px' }}><TVChartContainer /></div>
         <UserInfoTable />
       </Col>
 

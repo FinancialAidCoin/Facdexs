@@ -55,6 +55,9 @@
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
+    "rules": {
+      "no-unused-expressions": "off"
+    },
     "extends": "react-app"
   },
   "jest": {

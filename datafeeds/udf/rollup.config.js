@@ -1,6 +1,7 @@
 /* globals process */
 
-import { terser } from 'rollup-plugin-terser';
+import buble from '@rollup/plugin-buble';
+import { uglify } from 'rollup-plugin-uglify';
 import { nodeResolve } from '@rollup/plugin-node-resolve';
 
 const environment = process.env.ENV || 'development';
@@ -16,11 +17,21 @@ export default [
 		},
 		plugins: [
 			nodeResolve(),
-			!isDevelopmentEnv && terser({
-				ecma: 2017,
-				safari10: true,
-				output: { inline_script: true },
-			}),
+			buble(),
+			!isDevelopmentEnv && uglify({ output: { inline_script: true } }),
+		],
+	},
+	{
+		input: 'src/polyfills.es6',
+		context: 'window',
+		output: {
+			format: 'iife',
+			file: 'dist/polyfills.js',
+		},
+		plugins: [
+			nodeResolve(),
+			buble(),
+			uglify({ output: { inline_script: true } }),
 		],
 	},
 ];

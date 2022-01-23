@@ -3,7 +3,7 @@ import { PublicKey, Transaction } from '@solana/web3.js';
 import { notify } from '../../utils/notifications';
 import { DEFAULT_PUBLIC_KEY, WalletAdapter } from '../types';
 
-export class SolongWalletAdapter extends EventEmitter implements WalletAdapter {
+export class SolonWalletAdapter extends EventEmitter implements WalletAdapter {
   _publicKey?: PublicKey;
   _onProcess: boolean;
   _connected: boolean;

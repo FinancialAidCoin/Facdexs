@@ -14,7 +14,11 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
+<<<<<<< HEAD
   "/Facdex/precache-manifest.c7a6dcc03cdbccbd746198ca40b1b9ce.js"
+=======
+  "/Facdexs/precache-manifest.afea94ba7995affb235ffe3b3391e836.js"
+>>>>>>> 1641051f7315226e8cfff970466f52c15746d337
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +37,11 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
+<<<<<<< HEAD
 workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/Facdex/index.html"), {
+=======
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/Facdexs/index.html"), {
+>>>>>>> 1641051f7315226e8cfff970466f52c15746d337
   
   blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });

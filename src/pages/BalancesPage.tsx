@@ -8,6 +8,7 @@ import FloatingElement from '../components/layout/FloatingElement';
 import WalletBalancesTable from '../components/UserInfoTable/WalletBalancesTable';
 import { useMintToTickers } from '../utils/tokens';
 
+
 const { TabPane } = Tabs;
 
 export default function BalancesPage() {

@@ -1,3 +1,4 @@
+
 import { useLocalStorageState } from './utils';
 import { Account, AccountInfo, Connection, PublicKey } from '@solana/web3.js';
 import React, { useContext, useEffect, useMemo, useRef } from 'react';
@@ -7,7 +8,7 @@ import { ConnectionContextValues, EndpointInfo } from './types';
 
 export const ENDPOINTS: EndpointInfo[] = [
   {
-    name: 'Mainnet',
+    name: 'mainnet-beta',
     endpoint: 'https://solana-api.projectserum.com',
     custom: false,
   },
@@ -27,7 +28,7 @@ export function ConnectionProvider({ children }) {
   );
   const [customEndpoints, setCustomEndpoints] = useLocalStorageState<
     EndpointInfo[]
-  >('customConnectionEndpoints', []);
+    >('customConnectionEndpoints', []);
   const availableEndpoints = ENDPOINTS.concat(customEndpoints);
 
   const connection = useMemo(() => new Connection(endpoint, 'recent'), [
